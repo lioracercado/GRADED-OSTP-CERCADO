@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Triangle OTSP</title>
 </head>
 <body>
     <script>
         var a = prompt("Enter a number that will serve as the length of the first side of the triangle: ");
-        var b = prompt("Enter a number that will serve as the length of the first side of the triangle: ");
-        var c = prompt("Enter a number that will serve as the length of the first side of the triangle: ");
+        var b = prompt("Enter a number that will serve as the length of the second side of the triangle: ");
+        var c = prompt("Enter a number that will serve as the length of the third side of the triangle: ");
 
         function determineTriangle(a,b,c){
-
+            
             if (a==b && b==c && c==a){
                 window.alert("The triangle is EQUILATERAL");
             }
@@ -29,7 +29,7 @@
                 window.alert("The triangle is SCALENE");
             }
 
-        }
+        } determineTriangle(a,b,c);
         
     </script>
 </body>
